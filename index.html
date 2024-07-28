@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stone | Paper | Scissor</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+AR:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="header">Kalikkalam</h1>
+
+        <div class="choice-image">
+
+            <h1 class="Computer-User-txt" id="computer-txt">Computer</h1>
+
+            <div class="Computer-Choice" id="computer-choice">
+                <img src="assets/Paper.png" class="choice-img">
+            </div>
+
+            <div class="vs">VS</div>
+
+            <div class="User-Choice" id="user-choice">
+                <img src="assets/Paper.png" class="choice-img">
+            </div>
+
+            <h1 class="Computer-User-txt" id="user-txt">User</h1>
+        </div>
+
+        <div class="win-lost-count">
+            <div>
+            <h2>Win: <span id="win-count">0</span> | Lose: <span id="lose-count">0</span></h2>
+            </div>
+        </div>
+        
+        <h1 id="output">Result</h1>
+
+        <div class="option-container">
+            <img src="assets/Stone.png" alt="Stone" id="stone" class="option" onclick="user(event)">
+            <img src="assets/Paper.png" alt="Paper" id="paper" class="option" onclick="user(event)">
+            <img src="assets/Scissor.png" alt="Scissor" id="scissor" class="option" onclick="user(event)">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

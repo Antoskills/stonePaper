@@ -1,0 +1,194 @@
+@font-face {
+    font-family: Rck;
+    src: url(Fonts/BruceForeverRegular-X3jd2.ttf);
+}
+
+body {
+    background: linear-gradient(to right, #860292, #d31b07);
+    font-family: 'Playwrite AR', sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+html {
+    overflow: hidden;
+    height: 100%;
+}
+
+.container {
+    text-align: center;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px;
+    height: 100%;
+    max-height: 600px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+    font-size: 2em;
+    font-family: 'Rck', sans-serif;
+    color: #fff;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.choice-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.Computer-Choice, .User-Choice, .vs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+}
+/* Computer choice div */
+.Computer-Choice {
+    margin : auto;
+    width : 725px;
+    height : 225px;
+}
+.Computer-Choice img {
+    width: 100%; 
+    height: 100%; 
+}
+/* Computer choice div close */
+
+
+
+/* User choice div */
+.User-Choice {
+    margin : auto;
+    width : 725px;
+    height : 225px;
+}
+.User-Choice img {
+    width: 100%; 
+    height: 100%; 
+}
+
+
+
+
+
+/* User choice div close */
+
+
+/* WIN LOSE COUNT DIV */
+/* .win-lost-count {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100%; 
+    text-align: center; 
+    font-size: 1em; 
+    color: #fff;
+    margin-top: 10px; 
+} */
+
+
+
+
+.win-lost-count {
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    margin : 0 auto;
+    /* background-color: #d31b07; */
+    /* border : 3px solid black; */
+    border-radius: 40px;
+    /* width : 400px; */
+    padding : 7.5px;
+    margin-bottom: 10px;
+    
+}
+
+
+/* WIN LOSE COUNT DIV CLOSE*/
+
+
+
+
+
+
+
+
+
+
+
+
+.vs {
+    font-size: 1.5em; /* Reduced size */
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.win-lost-count {
+    font-size: 1em; /* Reduced size */
+    color: #fff;
+    background-color: #000000;
+}
+
+.result {
+    font-size: 1.5em; /* Reduced size */
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.Computer-User-txt {
+    font-family: 'Rck', sans-serif;
+    font-size: 1.2em; /* Reduced size */
+    color: #fff;
+    margin-top: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.option-container {
+    display: flex;
+    justify-content: space-around;
+    
+    padding-top: 10px;
+    margin-bottom: 30px;
+}
+
+.option {
+    background-color: black;
+    border-radius: 50px;
+    width: 130px; /* Increased size */
+    height: 130px; /* Increased size */
+    transition: transform 0.3s, box-shadow 0.3s;
+    border : 1px solid white;
+}
+
+.option:hover {
+    background-color: #ffffff3e;
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+#output {
+    font-size: 20px;
+    background-color: #fff;
+    width : 600px;
+    border-radius : 40px;
+    margin : auto;
+    border : 1px solid black;
+    padding : 5px;
+
+}
